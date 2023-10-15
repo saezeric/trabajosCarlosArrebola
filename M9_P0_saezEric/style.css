@@ -1,0 +1,460 @@
+/* Eliminamos margenes */
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+
+/* Barra de buscador */
+
+#sidebar{
+    width: 20%;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    background-color: #f5f6f7;
+}
+
+.menuSidebar{
+    margin: 30px;
+}
+
+#buscador{
+    margin-bottom: 45px;
+    position: relative;
+}
+
+#buscador input{
+    width: 90%;
+    height: 30px;
+    border-radius: 5px;
+    border: solid grey 1px;
+    padding: 10px;
+}
+
+#buscador i{
+    color:#7f888f;
+    position: absolute;
+    left: 275px;
+    top: 25px;
+}
+
+
+
+
+
+/* Menus */
+
+.menuDecoration{
+    border-top: solid 1px darkgrey;
+}
+
+.lineas{
+    border-top: solid 1px darkgrey;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+
+
+#lineMenu{
+    border-top: solid 3px red;
+    width: 70px;
+}
+
+.menu ul li a,
+.menu ul li span
+{
+    text-decoration: none;
+    color: black;
+}
+
+.submenu{
+    display: none;
+}
+
+.menu ul li a:hover{
+    color: #f56a6a;
+}
+
+li:hover>ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu{
+    padding: 45px 0px;
+    border-bottom: 1px solid darkgrey;
+}
+
+
+
+
+/* Ante interdum o Contenido en la Sidebar */
+
+#barraTitulo{
+    border-bottom: solid 3px red;
+    width: 50%;
+    padding: 10px 0px;
+}
+
+.contSidebar{
+    padding: 45px 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.estiloContent{
+    padding: 20px 0px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.estiloContent img{
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+.estiloContent p{
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.estiloBoton{
+    margin: 40px 0px;
+}
+
+.estiloBoton li{
+    list-style: none;
+}
+
+.estiloBoton li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 2px solid #f56a6a;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    color: #f56a6a;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+
+/* Get in touch o Información de Contacto */
+
+.contactoSidebar{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contactoSidebar h2{
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 10px;
+    border-bottom: solid 3px red;
+    width: 50%;
+}
+
+.contactoSidebar p{
+    padding: 30px 0px;
+}
+
+.infoContacto ul li{
+    list-style: none;
+    padding: 20px 0px;
+    border-bottom: 1px solid darkgrey;
+    color: #f56a6a;
+}
+
+.infoContacto ul li a{
+    text-decoration: none;
+    padding-left: 5px;
+    font-family: 'Roboto Slab', serif;
+    color: #f56a6a;
+}
+
+/* Copyright */
+
+#copyright{
+    padding: 30px 0px;
+    font-size: 15px;
+    color: #f56a6a;
+}
+
+#copyright a{
+    color: #f56a6a;
+}
+
+/* Fin de la Sidebar */
+
+
+
+
+
+
+/* Página principal o Contenido de la Página */
+
+/* Barra de inicio con redes sociales */
+
+.container{
+    width: 1300px;
+    margin: 0 auto 0 auto;
+    padding-top: 100px;
+    padding-left: 335px;
+}
+
+.topContainer{
+    border-bottom: 4px solid #f56a6a;
+    display: inline-flex;
+    width: 100%;
+}
+
+.tituloContainer{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #7f888f;
+}
+
+.tituloContainer h2{
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+.titulo2Parte{
+    text-decoration: none;
+    color: #7f888f;
+    font-weight:bolder;
+}
+
+.titulo{
+    text-decoration: none;
+    color: Black;
+    font-weight: bold;
+}
+
+.titulo:hover{
+    color:#7f888f;
+}
+
+.redesContainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.redesContainer a{
+    color: #7f888f;
+}
+
+.redesContainer i{
+    padding: 0px 5px;
+}
+
+
+/* Contenido de la pagina */
+
+/* Textos y titulos */
+
+.contContainer{
+    padding: 124px 0px;
+    display: flex;
+    border-bottom: 1px solid darkgrey;
+}
+
+.textoContainer{
+    width: 50%;
+    font-family: 'Roboto Slab', serif;
+    padding-right: 100px;
+}
+
+.espacioTextoContainer{
+    padding-bottom: 20px;
+}
+
+.espacioTextoContainer h1{
+    font-size: 80px;
+    color: rgb(54, 54, 54);
+}
+
+.espacioTextoContainer h2{
+    font-size: 22px;
+    color: grey;
+    font-weight: 400;
+}
+
+.espacioTextoContainer p{
+    font-size: 18px;
+    color: grey;
+    font-weight: lighter;
+}
+
+.espacioTextoContainer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.espacioTextoContainer ul li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 2px solid #f56a6a;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    color: #f56a6a;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Foto */
+
+.fotoContainer{
+    width: 50%;
+}
+
+.fotoContainer div{
+    width: 100%;
+    height: 100%;
+}
+
+.fotoContainer div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Contenido de la pagina parte 2 */
+
+.contContainer2{
+    padding: 65px 0px;
+    border-bottom: 1px solid darkgrey;
+}
+
+/* Titulo */
+
+.tituloContainer2{
+    padding-bottom: 10px;
+    border-bottom: solid 3px red;
+    width: 15%;
+}
+
+.tituloContainer2 h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+/* Rombos, Iconos */
+
+.rombosContainer2{
+    display: flex;
+}
+
+.rombosIzquierda{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.rombos{
+    border: 1px solid grey;
+    padding: 0px 25px;
+    transform: rotate(45deg);
+}
+
+.rombos i{
+    transform: rotate(315deg);
+    margin-top: 30px;
+}
+
+.rombosDerecha{
+    margin: 100px 0px 0px 20px;
+    display: flex;
+    width: 100%;
+}
+
+/* Texto */
+
+.textoRombos{
+    padding-left: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.textoRombos h2{
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: rgb(54, 54, 54);
+}
+
+.textoRombos p{
+    color: #7f888f;
+}
+
+
+/* Cards o contenido con imagenes y links */
+
+.contCards{
+    margin: 50px 0px;
+}
+
+.tituloCards{
+    padding-bottom: 10px;
+    border-bottom: solid 3px red;
+    width: 20%;
+    margin-bottom: 25px;
+}
+
+.tituloCards h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: rgb(54, 54, 54);
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 100%;
+    padding: 30px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 20px 0px;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(54, 54, 54);
+}
+
+.card p{
+    font-family: 'Open Sans', sans-serif;
+    color: #7f888f;
+    font-weight: bold;
+}
+
+.cardButton ul li{
+    list-style: none;
+    margin-top: 40px;
+} 
+
+.cardButton ul li a{
+    text-decoration: none;
+    padding: 10px 25px;
+    border: 2px solid #f56a6a;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    color: #f56a6a;
+    font-size: 16px;
+    font-weight: bold;
+}
